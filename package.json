@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Simple environment for Solidity contract development",
   "scripts": {
-    "test": "mocha"
+    "test": "node_modules/mocha/bin/mocha"
   },
   "author": "Dave Bryson",
   "license": "MIT",
@@ -13,5 +13,8 @@
     "grunt": "^0.4.5",
     "solc": "^0.3.0-1",
     "web3": "^0.15.3"
+  },
+  "devDependencies": {
+    "mocha": "^2.4.5"
   }
 }

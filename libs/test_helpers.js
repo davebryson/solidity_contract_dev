@@ -1,6 +1,6 @@
 'use strict';
 
-var Promise = require('bluebird');
+//var Promise = require('bluebird');
 
 
 var Helpers = {
@@ -13,7 +13,7 @@ var Helpers = {
   deploy: function(web3, from, contractInfo) {
     var tx = {
       from: from,
-      gas: 300000,
+      gas: 600000,
       data: contractInfo.code
     };
     return new Promise(function(accept, reject) {
