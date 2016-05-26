@@ -7,14 +7,16 @@
   },
   "author": "Dave Bryson",
   "license": "MIT",
-  "dependencies": {
-    "bluebird": "^3.3.4",
+  "dependencies": {},
+  "devDependencies": {
+    "ethereumjs-tx": "^1.1.1",
+    "ethereumjs-util": "^4.4.1",
     "glob": "^7.0.3",
     "grunt": "^0.4.5",
+    "mocha": "^2.4.5",
+    "scryptsy": "^1.2.1",
     "solc": "^0.3.0-1",
+    "uuid": "^2.0.2",
     "web3": "^0.15.3"
-  },
-  "devDependencies": {
-    "mocha": "^2.4.5"
   }
 }
